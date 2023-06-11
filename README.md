@@ -45,7 +45,7 @@ Download and run Git setup file from <a href="https://Git-scm.com" target="_blan
 
 Afther that, Run Command Propmt and enter this commands:
 
-<code>git clone https://github.com/GitHackTools/BillCipher</code>
+<code>git clone https://github.com/MGreif/BillCipher.git</code>
 
 <code>cd BillCipher</code>
 
