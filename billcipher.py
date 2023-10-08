@@ -44,12 +44,10 @@ def getVictim():
     if what[0].upper() == 'W':
         victim = input('Enter the website address: ')
         print('The website of the victim is:', victim)
-        banner()
     elif what[0].upper() == 'I':
         victim = input('Enter the IP address (or domain to get IP address of this domain): ')
         victim = socket.gethostbyname(victim)
         print('The IP address of target is:',victim)
-        banner()
     else:
         print('?')
         return getVictim()
@@ -59,6 +57,7 @@ def getVictim():
 
 def getSelection(victim: str):
     try:
+        banner()
         choose = input('\033[96mWhat information would you like to collect? (1-20): ')
 
         if choose == '1':
